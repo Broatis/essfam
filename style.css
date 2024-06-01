@@ -387,6 +387,10 @@ nav{ /*なんで ".flex-div" と "nav" を分けたんでしょう*/
         margin-right: 15px;
         margin-top: 15px;
     }
+
+    .math3List{
+        display: block;
+    }
 }
 
 ::-webkit-scrollbar{
