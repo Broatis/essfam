@@ -389,7 +389,11 @@ nav{ /*なんで ".flex-div" と "nav" を分けたんでしょう*/
     }
 
     .math3List{
-        display: block;
+        flex-direction: column;
+        text-align: center;
+    }
+    .math3List button{
+        min-width: 260px;
     }
 }
 
