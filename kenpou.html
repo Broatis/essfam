@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Sharing Website</title>
+    <link rel="icon" href="images/like.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleQuiz.css">
+
+    <!-- <script>window.MathJax = { MathML: { extensions: ["mml3.js", "content-mathml.js"]}};</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+
+    <script src=' https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default' async></script>
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" alt="" class="menu-icon">
+            <img src="images/logo.png" alt="" class="logo">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="探す">
+                <img src="images/search.png" alt="">
+            </div>
+            <img src="images/voice-search.png" alt="" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/Jack.png" alt="" class="user-icon">
+        </div>
+    </nav>
+
+    <!-- ----------- sidebar ----------- -->
+
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png" alt=""><p>ホーム画面</p></a>
+            <a href=""><img src="images/explore.png" alt=""><p>学習【学年別】</p></a>
+            <a href=""><img src="images/subscriprion.png" alt=""><p>学習【学問別】</p></a>
+            <a href=""><img src="images/library.png" alt=""><p>学習【資格別】</p></a>
+            <a href=""><img src="images/history.png" alt=""><p>学習履歴</p></a>
+            <a href=""><img src="images/playlist.png" alt=""><p>Playlist</p></a>
+            <a href=""><img src="images/messages.png" alt=""><p>プロフィール</p></a>
+            <a href=""><img src="images/show-more.png" alt=""><p>Show More</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/Jack.png" alt=""><p>Jack Nicholson</p></a>
+            <a href=""><img src="images/simon.png" alt=""><p>Simon Baker</p></a>
+            <a href=""><img src="images/tom.png" alt=""><p>Tom Hardy</p></a>
+            <a href=""><img src="images/megan.png" alt=""><p>Megan Ryan</p></a>
+            <a href=""><img src="images/cameron.png" alt=""><p>Cameron Diaz</p></a>
+        </div>
+    </div>
+
+    <div class="container">  
+        <div class="app">
+            <h1>付け焼き刃で憲法突破するための問題集</h1>
+            <div class="quiz">
+                <h2 id="question">Question goes here</h2>
+                <p id="answer"></p>
+                <p id="kaisetsu"></p>
+                <button id="check-btn">解答ボタン</button>
+                <div class="marubatsu">
+                    <button id="correct-btn">正解ボタン</button>
+                    <button id="incorrect-btn">不正解ボタン</button>    
+                </div>
+                <button id="retry-btn">再挑戦ボタン</button>
+                <button id="reset-btn">再設定ボタン</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="kenpou.js"></script>
+</body>
