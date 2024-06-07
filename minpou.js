@@ -4,8 +4,9 @@ window.MathJax = { MathML: { extensions: ["mml3.js", "content-mathml.js"]}}
 type="text/javascript" 
 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
+// document.getElementById('minpou-title').innerText = questions.length;
 const questions = [
-    // スー過去テーマ1より
+    // スー過去「民法Ⅰ」テーマ1より
     {
         question: "自然人の権利能力は死亡によって消滅するため、失踪者が、失踪宣告によって死亡したものとみなされた場合には、その者が生存していたとしても、同宣告後その取り消し前にそのものがした法律行為は無効である。",
         answer: "✖<br>失踪宣告による死亡認定があっても、生存していれば権利能力は消滅しない。"
