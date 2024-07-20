@@ -398,13 +398,13 @@ nav{ /*なんで ".flex-div" と "nav" を分けたんでしょう*/
 }
 
 ::-webkit-scrollbar{
-    width: 15px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track{
-    background: blue;
+    background: rgba(255, 255, 255, 0.808);
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(yellow, green);
+    background: rgb(255, 196, 0)/*linear-gradient(rgb(219, 219, 219), green)*/;
     border-radius: 10px;
 }
 
